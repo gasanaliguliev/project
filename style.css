@@ -87,6 +87,10 @@ h6 {
     color: #C79002;
 }
 
+.rest-page-img1 {
+    float: left;
+}
+
 
 .rest-page-img2 {
   /*  position: relative;
@@ -119,9 +123,7 @@ h6 {
 }
 
 
-.rest-page-wrap {
-    display: flex;
-}
+
 
 
 
