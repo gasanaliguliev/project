@@ -24,7 +24,7 @@ h6 {
 }
 
 body {
-  font-family: "Montserrat";
+    font-family: "Montserrat";
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -33,7 +33,7 @@ body {
 
 
 .rest-page-section1 {
-  background-color: #fff;
+  background-color: #fffdee;
   padding-top: 16px;
   padding-bottom: 20px;
 }
@@ -52,6 +52,7 @@ body {
   font-size: 20px;
   line-height: 1.15;
   color: #b4b4b4;
+  margin-bottom: 12px;
 }
 
 .rest-page-logo {
@@ -155,10 +156,15 @@ body {
     width: 960px;
    }
 
+   .rest-page-section1 {
+    padding-top: 120px;
+    padding-bottom: 32px;
+   }
+
     .rest-page-title {
     font-size: 32px;
     line-height: 37px;
-    margin-top: 120px;
+    margin-bottom: 4px;
    }
 
    .rest-page-logo {
@@ -242,7 +248,7 @@ body {
     .rest-page-text2 {
       position: relative;
       width: 312px;
-      left: 398px;
+      left: 492px;
       font-size: 16px;
       line-height: 1.25;
       padding-top: 123px;
@@ -252,7 +258,7 @@ body {
     .rest-page-img2 {
       width: 460px;
       position: absolute;
-      right: 186px;
+      right: 179px;
       top: -33px;
     }
 
