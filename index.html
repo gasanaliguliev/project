@@ -1,55 +1,82 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css" />
+    
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="rest-page-section1">
-        <div class="rest-page-container">
-            <!-- --Group1-- -->
-            <div class="rest-page-group1">
-                <img src="./img/img-1.jpg" srcset="./img/img-2.jpg 1x, ./img/img-2@2x.jpg 2x" alt="believe" class="rest-page-img2" width="280">
-                <h2 class="rest-page-title">
-                    Amet minim mollit non
-                </h2>
-                <h3 class="rest-page-logo">
-                    MIMOHO
-                </h3>
-                <p class="rest-page-text1">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                    Velit officia consequat duis enim velit mollit. 
-                    Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <!-- <img src="./img/img-1.jpg" srcset="./img/img-2.jpg 1x, ./img/img-2@2x.jpg 2x" alt="believe" class="rest-page-img2" width="280"> -->
-            </div>
-            <!--  --Group2-- -->
-            <div class="rest-page-group2">
-                <img src="./img/img-2.jpg" srcset="./img/img-1.jpg 1x, ./img/img-1@2x.jpg 2x" alt="meat" class="rest-page-img1" width="200">
-                <p class="rest-page-text2">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                    Velit officia consequat duis enim velit mollit. 
-                    Exercitation veniam consequat sunt nostrud amet.
-                </p>
-            </div>
-            <!--  --Group3-- -->
-            <div class="rest-page-group3">
-                <img src="./img/img-3.jpg" srcset="./img/img-3.jpg 1x, ./img/img-3@2x.jpg 2x" alt="believe" class="rest-page-img3" width="245">
-                <img src="./img/img-4.jpg" srcset="./img/img-4.jpg 1x, ./img/img-4@2x.jpg 2x" alt="food" class="rest-page-img4" width="245">
-                <div class="rest-page-icon-wrap">
-                    <svg class="rest-page-icon1" width="32" height="32">
-                        <use href="./symbol-defs.svg#icon-Vector"></use>
-                    </svg>
-                    <svg class="rest-page-icon2" width="32" height="32">
-                        <use href="./symbol-defs.svg#icon-Vector-1"></use>
-                    </svg>
-                </div>
-            </div>
+      <div class="rest-page-container">
+       <!--  --Group-1-- -->
+        <div class="rest-page-group1">
+          <h2 class="rest-page-title">Amet minim mollit non</h2>
+          <h3 class="rest-page-logo">MIMOHO</h3>
+          <p class="rest-page-text1">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <img src="./img-2.jpg" alt="povar" class="rest-page-img2" width="280">
         </div>
+       <!-- --Group-2-- -->
+        <div class="rest-page-group2">
+          <div class="rest-page-wrap">
+            <img
+              src="./img-1.jpg"
+              alt="meat"
+              class="rest-page-img1"
+              width="200"
+            />
+            <p class="rest-page-text2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+        <!-- --Group-3-- -->
+        <div class="rest-page-group3">
+          <div class="rest-page-img-wrap">
+            <img
+            src="./img-3.jpg"
+            alt="believe"
+            class="rest-page-img3"
+            width="245"
+          />
+          <img
+            src="./img-4.jpg"
+            alt="food"
+            class="rest-page-img4"
+            width="245"
+          />
+          </div>
+          <div class="rest-page-icon-wrap">
+            <svg class="rest-page-icon1" width="32" height="32">
+              <use href="./symbol-defs.svg#icon-Vector"></use>
+            </svg>
+            <svg class="rest-page-icon2" width="32" height="32">
+              <use href="./symbol-defs.svg#icon-Vector-1"></use>
+            </svg>
+          </div>
+        </div>
+
+      </div>
     </section>
-</body>
+  </body>
 </html>
